@@ -1,6 +1,7 @@
 # =====================================================
 # EJEMPLO 4: MAGNITUD DEL GRADIENTE (SOBEL X + SOBEL Y)
 # =====================================================
+# catherine rascon NC = 0072
 import numpy as np
 import matplotlib.pyplot as plt
 from funciones_frecuencia_0072 import (
@@ -66,3 +67,4 @@ ejes[1, 2].axis("off")
 plt.tight_layout()
 guardar_grafica(figura, "04_comparacion_magnitud_gradiente.png")
 plt.show()
+print("catherine rascon NC = 0072")

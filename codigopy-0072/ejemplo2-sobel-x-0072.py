@@ -1,6 +1,7 @@
 # =====================================================
 # EJEMPLO 2: SOBEL X EN EL DOMINIO DE LA FRECUENCIA
 # =====================================================
+# catherine rascon NC = 0072
 import numpy as np
 import matplotlib.pyplot as plt
 from funciones_frecuencia_0072 import (
@@ -48,3 +49,4 @@ ejes[2].axis("off")
 plt.tight_layout()
 guardar_grafica(figura, "02_sobel_x.png")
 plt.show()
+print("catherine rascon NC = 0072")

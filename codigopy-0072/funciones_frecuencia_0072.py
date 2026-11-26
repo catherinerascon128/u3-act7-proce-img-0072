@@ -72,3 +72,4 @@ def guardar_grafica(figura, nombre_archivo):
     ruta = os.path.join(carpeta, nombre_archivo)
     figura.savefig(ruta, dpi=150, bbox_inches="tight")
     print(f"✅ Imagen guardada correctamente en: {ruta}")
+print("catherine rascon NC = 0072")

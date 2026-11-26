@@ -1,6 +1,7 @@
 # =====================================================
 # EJEMPLO 1: IMAGEN ORIGINAL Y ESPECTRO DE FRECUENCIA
 # =====================================================
+# catherine rascon = 0072
 import matplotlib.pyplot as plt
 from funciones_frecuencia_0072 import (
     cargar_imagen,
@@ -37,3 +38,4 @@ plt.tight_layout()
 # 7. Guardar y mostrar
 guardar_grafica(figura, "01_imagen_y_espectro.png")
 plt.show()
+print("catherine rascon NC = 0072")
